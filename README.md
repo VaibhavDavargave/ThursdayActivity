@@ -1,1 +1,1 @@
-# ThursdayActivity
+# ThursdayLabActivity
