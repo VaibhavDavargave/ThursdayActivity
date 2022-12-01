@@ -3,6 +3,7 @@ package com.question3;
 import java.util.Scanner;
 
 public class Customer {
+	
 	private int  accountNumber;
 	private String accountName;
 	private long accountBalance;
@@ -10,6 +11,7 @@ public class Customer {
 	 
 	public void createAccount()
 	{
+		
 		System.out.println("Enter account no:");
 		accountNumber=sc.nextInt();
 		System.out.println("Enter name");
