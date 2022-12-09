@@ -6,7 +6,7 @@ class InvalidAgeWeightException extends Exception
 {
 	public InvalidAgeWeightException(String Str)
 	{
-		
+		super(Str);
 	}
 }
 
@@ -28,14 +28,13 @@ public class Person {
 				throw new InvalidAgeWeightException("invalid age weight exception");
 			}
 			else
-				System.out.println("age is"+age);
-				System.out.println("weight is"+weight);
-			
+				System.out.println("your valid to donate blood");
 		}
 		catch(InvalidAgeWeightException e)
 		{
 			System.out.println(e);
+			System.out.println("Your not valid to donate blood");
 		}
-		System.out.println("remaining part of the program");
+		
 		}
 }

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import javax.naming.InvalidNameException;
 
-public class  UserDefinedExceptionToCheckName {
+public class  UserDefinedExceptionToCheckName  extends Exception {
 	
 	void validateName(String name) throws InvalidNameException { 
 		String[] names = { "vaibhav", "Vaishali", "rutwik", "aniket","shivani","ritika"};
@@ -44,6 +44,7 @@ public class  UserDefinedExceptionToCheckName {
 	        }
 	}
 
-	
-
 }
+		 
+		
+	       
