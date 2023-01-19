@@ -31,8 +31,8 @@ public class Account {
 	public static void main(String[] args) {
 		Account acct=new Account();
 		System.out.println("current balance:"+acct.balance());
-		System.out.println("Withdrawing 20000");
-		acct.withdraw(20000);
+		System.out.println("Withdrawing 2000");
+		acct.withdraw(2000);
 		System.out.println("Current balance : " + acct.balance());
        
 		
