@@ -8,7 +8,7 @@ public class ProductPriceComparator  implements Comparator{  //sorting product b
 	  Product p1=(Product) o1;
 	  Product p2=(Product) o2;
 	  if(p1.price==p2.price) return 0;
-	  else if(p1.price<p2.price) return 1;
+	  else if(p1.price>p2.price) return 1;
 	  else return -1;
   }
 	
